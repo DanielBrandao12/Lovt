@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+
+
+    width: 80%;
+
+}
 
 header {
 
@@ -20,7 +33,7 @@ header {
 }
 
 #title-description {
-    
+
     font-family: 'Ropa Sans';
     font-weight: 400;
     font-size: 10px;
@@ -28,11 +41,43 @@ header {
     color: #AAAAAA;
 
 }
-.banner{
-    
+
+.banner {
+
+    margin-top: 30px;
+    width: 100%;
     height: 350px;
     background-image: url("../img/Home.png");
+    background-size: 800px;
     background-position: center;
     background-repeat: no-repeat;
+
+}
+
+#produtos {
+    margin-top: 10px;
+    width: 40%;
+    display: inline-block;
+    margin-left: 80px;
+    height: 350px;
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.produto_1 {
+
+
+    background-image: url("../img/sala.png");
+
+
+
+
+}
+
+.produto_2 {
     
+    background-image: url("../img/casa.png");
 }
