@@ -47,31 +47,79 @@ header {
 
 }
 
-.flex-itens {
 
-    width: 25%;
-    height: 250px;
+.flex-itens {
+    display: flex;
+    width: 30%;
+    height: 350px;
     margin: 0 auto;
+    align-items: flex-start;
+    justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  background-color: #EEEEEE;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
 
 
 }
-
+.itens{
+    display: flex;
+    
+    
+}
 #banner1 {
+   
+    width: 90%;
+    height: 250px;
     background: url("../img/Rectangle2.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
+   
 
 
 
 }
 
 #banner2 {
+    width: 100%;
+    height: 250px;
     background: url("../img/Rectangle3.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
 
+}
+
+.estilos{
+    display: flex;
+   flex-direction: column;
+   height: 100vh;
+  
+}
+.estilo1{
+    background: url("../img/Rectangle4.svg");
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.estilo2{
+    background: url("../img/Rectangle5.svg");
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.estilo3{
+    background: url("../img/Rectangle6.svg");
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
 }
 
 
