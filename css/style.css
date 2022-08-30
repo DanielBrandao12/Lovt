@@ -104,7 +104,8 @@ header {
 .estilo1{
     background: url("../img/Rectangle4.svg");
     width: 80%;
-    height: 250px;
+    
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -114,7 +115,7 @@ header {
 .estilo2{
     background: url("../img/Rectangle5.svg");
     width: 80%;
-    height: 250px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
@@ -123,7 +124,7 @@ header {
 .estilo3{
     background: url("../img/Rectangle6.svg");
     width: 80%;
-    height: 250px;
+    height: 150px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
