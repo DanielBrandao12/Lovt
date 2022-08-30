@@ -53,8 +53,7 @@ header {
     width: 30%;
     height: 350px;
     margin: 0 auto;
-    align-items: flex-start;
-    justify-content: center;
+   
   flex-direction: column;
   max-width: 100%;
   background-color: #EEEEEE;
@@ -90,36 +89,45 @@ header {
     background-size: 90%;
 
 }
+.titulo-estilo{
+    margin-top: 50px;
+    
+    text-align: center;
+}
 
 .estilos{
+    width: 100vw;
     display: flex;
    flex-direction: column;
-   height: 100vh;
-  
+   height: 100vh;  
 }
 .estilo1{
     background: url("../img/Rectangle4.svg");
-    width: 100%;
+    width: 80%;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
+    margin: 0 auto;
+
 }
 .estilo2{
     background: url("../img/Rectangle5.svg");
-    width: 100%;
+    width: 80%;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
+    margin: 0 auto;
 }
 .estilo3{
     background: url("../img/Rectangle6.svg");
-    width: 100%;
+    width: 80%;
     height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
+    margin: 0 auto;
 }
 
 
@@ -136,6 +144,11 @@ header {
     display: none;
 }
 
+footer{
+  
+    height: 300px;
+    background: #333333;
+}
 @media(min-width: 481px) {
     .hamburguer-menu {
         display: none;
@@ -155,5 +168,6 @@ header {
 
 
     }
+    
 
 }
