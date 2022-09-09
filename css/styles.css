@@ -47,6 +47,8 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+
+ 
 }
 
 .arrow-button {
@@ -148,6 +150,8 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
 
+  z-index: 1;
+  opacity: 0.7;
 }
 
 
@@ -156,13 +160,19 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+
+  z-index: 1;
+  opacity: 0.7;
 }
 
-#style-classic {
+#style-classic{
   background-image: url("../images/Rectangle6.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+
+  z-index: 2;
+  opacity: 0.7;
 }
 
 .styles {
@@ -207,8 +217,50 @@ line-height: 27px;
 display: flex;
 align-items: center;
 text-align: center;
-color: white;
+color: #FFFFFF;
+
+
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #333333;
+  padding: 40px 45px;
+}
+
+#contacts {
+  width: 175px;
+  height: 150px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contacts span {
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
+#contacts strong {
+  font-family: 'Ropa Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+
 @media(min-width: 769px) {
   .hamburguer-menu {
     display: none;
